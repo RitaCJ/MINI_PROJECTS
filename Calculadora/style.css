@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wallpaper{
+    background-image: linear-gradient(45deg, cornFlowerBlue, darkBlue);
+    height: 100vh;
+    color:gold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.conteiner{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.button{
+    width: 65px;
+    height: 60px;
+    font-size: 30px;
+    cursor:pointer;
+    background-color: gold;
+    color: darkblue;
+    margin:4px;
+}
+
+.button:hover{
+    background-color: goldenrod;
+}
+
+.button1{
+    height: 80px;
+}
+
+#result{
+    width: 355px;
+    height: 50px;
+    background-color:aliceblue;
+    margin: 10px;
+    font-size: medium;
+    color:darkblue;
+    text-align: right;
+    padding: 5px;
+}
