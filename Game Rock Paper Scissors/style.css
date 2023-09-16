@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wallpaper{
+    background: linear-gradient(90deg, magenta, Navy);
+    height: 100vh;
+}
+
+.conteiner{
+    background-color:purple;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+h1{
+    font-size: 28px;
+    padding-top: 40px;
+    color: navy;
+}
+
+.btnStart{
+    margin-top: 120px;
+    width: 200px;
+    height: 50px;
+    background-color: navy;
+    text-transform: uppercase;
+}
+
+a{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:purple;
+}
+
+a:hover{
+    color: magenta;
+}
+
+p{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 40px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.paragraphGame1{
+    font-size: 30px;
+    color: magenta;
+}
+.paragraphGame2{
+    margin-top: 20px;
+    font-size: 16px;
+    color: navy;
+}
+.btn1{
+    width: 100px;
+    margin: 5px;
+    margin-top: 60px;
+}
+.btn2{
+    width: 100px;
+    margin: 5px;
+    margin-top: 60px;
+}
+.btn3{
+    width: 100px;
+    margin: 5px;
+    margin-top: 60px;
+}
+
+.btn4{
+    width: 150px;
+    margin: 5px;
+    margin-top: 100px;
+}
+.btn5{
+    width: 150px;
+    margin: 5px;
+    margin-top: 100px;
+}
