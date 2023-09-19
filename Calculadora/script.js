@@ -33,15 +33,32 @@ function back(){
 function calc(){
     let calcular = result.innerHTML;
     if(calcular){
+        if(calcular.includes("√")  || calcular.includes("∛")){
+            
+            const  raiz = calcular.includes("√") ?  1/2: 1/3
+        
+            calcular = calcular.replace("√", "").replace("∛", "");
+
+            const m =  Math.pow(eval(calcular), raiz)
+
+            result.innerHTML = m;           
+            return 
+        }
+       
         result.innerHTML = eval(calcular);
     }else{
       result.innerHTML = "Empty";
+
     }
+
+
 }
 
 btn1.addEventListener("click", back);
 btn2.addEventListener("click", clean);
 btn3.addEventListener("click", calc);
+
+
 
 
 document.querySelectorAll("[data-number]").forEach((value) => {

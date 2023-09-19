@@ -3,6 +3,7 @@
 const computer = document.getElementById("computer-choice");
 const user= document.getElementById("user-choice");
 const result = document.getElementById("game-result");
+
 const choice = document.querySelectorAll("button");
 
 let computerChoice;
