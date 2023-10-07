@@ -1,0 +1,45 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cadetblue;
+    font-size: medium;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #8B0000;
+}
+
+header{
+    padding: 15px;
+    text-align: center;
+}
+
+.departures{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+
+.departures table{
+    background-color: black;
+    text-align: left;
+}
+
+.departures table td{
+    height: 40px;
+}
+
+.departures table div{
+    border: solid 4px blue;
+    background-color: blueviolet;
+    float: left;
+    height: 40px;
+}
+
+#time{
+    width: 160px;
+
